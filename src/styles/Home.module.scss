@@ -1,3 +1,20 @@
-.heroSection {
+.sectionPadding {
+  padding: 0em 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.whySection {
+  max-width: 1200px;
+  width: 100%;
+  min-height: 69em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whySectionText {
+  max-width: 60em;
+  width: 100%;
 }
