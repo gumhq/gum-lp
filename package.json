@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fontsource/plus-jakarta-sans": "^4.5.11",
     "@next/font": "13.1.2",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
