@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+.heroSection {
+  min-height: 80vh;
+}
+
 .whySection {
   max-width: 1200px;
   width: 100%;
@@ -23,4 +27,18 @@
   min-height: 92em;
   width: 100%;
   background-color: var(--gray-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blocksText {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0em 3em;
+}
+
+.blocksHeading {
+  max-width: 49em;
 }

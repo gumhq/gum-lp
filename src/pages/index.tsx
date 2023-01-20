@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className="main-page">
       <DefaultHead />
-      {/* <Hero /> */}
+      <Hero />
       <Blocks />
       <Why />
     </main>
