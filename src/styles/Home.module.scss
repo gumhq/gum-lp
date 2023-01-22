@@ -60,3 +60,63 @@
     }
   }
 }
+
+
+.navbar {
+  width: 100%;
+  height: 4.5em;
+  border-bottom: 0.1em solid var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarContent {
+  max-width: 1400px;
+  width: 100%;
+  height: 100%;
+  padding: 0em 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navButton {
+  font-weight: 500;
+  font-size: 1.2em;
+  line-height: 132.02%;
+  text-align: center;
+  color: var(--gray-500);
+  background: none;
+  outline: none;
+  border: 0.1em solid var(--gray-400);
+  border-radius: 2.5em;
+  width: 13.4em;
+  height: 2.8em;
+  padding: 0em;
+  cursor: pointer;
+  transition: .2s linear all;
+  &:hover {
+    border: 0.1em solid var(--gray-600);
+    color: var(--gray-700);
+  }
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5em;
+  & > a {
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 132.02%;
+    text-align: center;
+    color: var(--gray-500);
+    text-decoration: none;
+    transition: .2s linear all;
+    &:hover {
+      color: var(--gray-700);
+    }
+  }
+}
