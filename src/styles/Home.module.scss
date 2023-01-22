@@ -36,9 +36,27 @@
   display: flex;
   max-width: 1200px;
   width: 100%;
-  padding: 0em 3em;
+  justify-content: space-between;
 }
 
 .blocksHeading {
   max-width: 49em;
+}
+
+.blocksSubHeading {
+  max-width: 52em;
+}
+
+.docsLink {
+  cursor: pointer;
+  transition: .15s linear all;
+  & > span {
+    transition: .15s linear all;
+  }
+  &:hover {
+    opacity: 0.8;
+    & > span {
+      margin-left: 0.2em;
+    }
+  }
 }
