@@ -1,5 +1,7 @@
 import Head from 'next/head';
 
+const OG_IMAGE = 'https://u3thexwfftkkw6thj7ufv2bdv5spd76woutboy7pvxf5dgyzjqyq.arweave.net/puZyXsUs1Kt6Z0_oWugjr2Tx_9Z1Jhdj763L0ZsZTDE';
+
 function DefaultHead () {
   return (
     <Head>
@@ -13,12 +15,12 @@ function DefaultHead () {
       <meta property='og:url' content={'https://gum.fun'} />
       <meta property='og:title' content={'Gum'} />
       <meta property='og:description' content={'Build Decentralized Social Apps That Scale'} />
-      <meta property='og:image' content={''} />
+      <meta property='og:image' content={OG_IMAGE} />
       <meta property='twitter:card' content='summary_large_image' />
       <meta property='twitter:url' content={'https://gum.fun'} />
       <meta property='twitter:title' content={'Gum'} />
       <meta property='twitter:description' content={'Build Decentralized Social Apps That Scale'} />
-      <meta property='twitter:image' content={''} />
+      <meta property='twitter:image' content={OG_IMAGE} />
     </Head>
   );
 }
