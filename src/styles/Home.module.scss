@@ -7,6 +7,9 @@
 
 .heroSection {
   min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .whySection {
@@ -124,5 +127,68 @@
 .legosSection {
   width: 100%;
   min-height: 108em;
-  background-color: var(--gray-800);
+  background-color: var(--gray-50);
+}
+
+.heroContent {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+  @media only screen and (max-width: 1540px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.heroContentLeft {
+  max-width: 42rem;
+}
+
+.heroButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5em;
+  margin-top: 3em;
+  & > button {
+    width: 13.5em;
+    height: 3.5em;
+    border-radius: 3.6em;
+    font-weight: 500;
+    font-size: 1.8em;
+    line-height: 132.02%;
+    text-align: center;
+    transition: 0.15s linear all;
+    cursor: pointer;
+    &:is(:first-child) {
+      border: none;
+      background-color: var(--gray-800);
+      color: white;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    &:is(:last-child) {
+      border: 0.1em solid var(--gray-800);
+      background: none;
+      color: var(--gray-800);
+      &:hover {
+        background-color: var(--gray-100);
+        color: var(--gray-900);
+      }
+    }
+  }
+
+}
+
+.heroAnimation {
+  width: calc(23vw + 33rem);
+  height: calc(23vw + 33rem);
+  pointer-events: none;
+  @media only screen and (min-width: 1540px) {
+    position: absolute;
+    right: 0;
+  }
 }

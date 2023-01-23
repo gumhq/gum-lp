@@ -4,11 +4,13 @@ import { DefaultHead } from '@/sections/head';
 import { Hero } from '@/sections/hero';
 import { Legos } from '@/sections/legos';
 import { Why } from '@/sections/why';
+import { Navbar } from '@/sections/navbar';
 
 export default function Home() {
   return (
     <main className="main-page">
       <DefaultHead />
+      <Navbar />
       <Hero />
       <Blocks />
       <Why />
