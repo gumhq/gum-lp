@@ -7,7 +7,9 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <Image src={logo} alt="" />
-        <div></div>
+        <div className={styles.footerLinks}>
+
+        </div>
       </div>
     </footer>
   );

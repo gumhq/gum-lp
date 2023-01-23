@@ -148,8 +148,9 @@
 
 .legosSection {
   width: 100%;
-  min-height: 108em;
   background-color: var(--gray-50);
+  display: flex;
+  justify-content: center;
 }
 
 .heroContent {
@@ -241,4 +242,26 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.legoContent {
+  padding: 10em 3em;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.legoText {
+  max-width: 65em;
+  text-align: center;
+}
+
+.legoImage {
+  & > img {
+    max-width: 100%;
+    height: auto;
+  }
 }
