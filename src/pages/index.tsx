@@ -5,6 +5,7 @@ import { Hero } from '@/sections/hero';
 import { Legos } from '@/sections/legos';
 import { Why } from '@/sections/why';
 import { Navbar } from '@/sections/navbar';
+import { Footer } from '@/sections/footer';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Blocks />
       <Why />
       <Legos />
+      <Footer />
     </main>
   )
 };

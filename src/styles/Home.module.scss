@@ -224,3 +224,21 @@
     height: 100%;
   }
 }
+
+.footer {
+  width: 100%;
+  height: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerContent {
+  max-width: 1400px;
+  width: 100%;
+  height: 100%;
+  padding: 0em 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
