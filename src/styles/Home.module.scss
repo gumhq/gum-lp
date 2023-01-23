@@ -19,6 +19,21 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
+    padding: 10em 0em;
+    gap: 5em;
+    & > img {
+      padding: 0em 3em;
+      max-width: 100%;
+    }
+    @media only screen and (min-width: 600px) {
+      gap: 10em;
+      & > img {
+        margin-right: calc(1vw + 6em);
+      }
+    }
+  }
 }
 
 .whySectionText {
@@ -40,6 +55,10 @@
   max-width: 1400px;
   width: 100%;
   justify-content: space-between;
+  padding: 0em 3em;
+  @media only screen and (max-width: 1200px) {
+    flex-direction: column;
+  }
 }
 
 .blocksHeading {
@@ -103,6 +122,9 @@
     border: 0.1em solid var(--gray-600);
     color: var(--gray-700);
   }
+  @media only screen and (max-width: 540px) {
+    display: none;
+  }
 }
 
 .navLinks {
@@ -144,6 +166,9 @@
 
 .heroContentLeft {
   max-width: 42rem;
+  @media only screen and (max-width: 600px) {
+    transform: scale(0.85);
+  }
 }
 
 .heroButtons {
@@ -152,6 +177,9 @@
   justify-content: flex-start;
   gap: 1.5em;
   margin-top: 3em;
+  @media only screen and (min-width: 1000px) {
+    margin-bottom: 10em;
+  }
   & > button {
     width: 13.5em;
     height: 3.5em;
@@ -190,5 +218,9 @@
   @media only screen and (min-width: 1540px) {
     position: absolute;
     right: 0;
+  }
+  @media only screen and (max-width: 1200px) {
+    width: 100%;
+    height: 100%;
   }
 }
