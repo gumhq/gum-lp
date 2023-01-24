@@ -42,31 +42,40 @@
 }
 
 .blocksSection {
-  min-height: 92em;
+  padding: 10em 0em;
   width: 100%;
   background-color: var(--gray-50);
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .blocksText {
   display: flex;
-  max-width: 1400px;
+  max-width: calc(1400px + 6em);
   width: 100%;
   justify-content: space-between;
-  padding: 0em 3em;
+  & > div {
+    padding: 0em 3em;
+  }
   @media only screen and (max-width: 1200px) {
     flex-direction: column;
   }
 }
 
 .blocksHeading {
-  max-width: 64em;
+  max-width: 60em;
+  @media only screen and (max-width: 1200px) {
+    max-width: 100%;
+  }
 }
 
 .blocksSubHeading {
   max-width: 60em;
+  @media only screen and (max-width: 1200px) {
+    max-width: 100%;
+  }
 }
 
 .docsLink {
@@ -159,9 +168,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 3rem;
   @media only screen and (max-width: 1540px) {
     flex-direction: column-reverse;
+  }
+  @media only screen and (min-width: 600px) {
+    padding: 0rem 3rem;
   }
 }
 
@@ -178,7 +189,7 @@
   justify-content: flex-start;
   gap: 1.5em;
   margin-top: 3em;
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 600px) {
     margin-bottom: 10em;
   }
   & > button {
@@ -263,5 +274,40 @@
   & > img {
     max-width: 100%;
     height: auto;
+  }
+}
+
+.blocksAll {
+  max-width: 1400px;
+  width: 100%;
+  margin-top: 8em;
+  & > img {
+    width: 100%;
+    height: auto;
+    padding: 0em 3em;
+    @media only screen and (max-width: 1600px) {
+      width: 80%;
+      height: auto;
+      padding-left: 3em;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.blocksGrid {
+  display: none;
+  margin-top: 8em;
+  max-width: 1400px;
+  width: 100%;
+  // flex-direction: column;
+  gap: 2.5em;
+  flex-wrap: wrap;
+  @media only screen and (max-width: 900px) {
+    display: flex;
+  }
+  & > img {
+    padding: 0em 3em;
   }
 }
