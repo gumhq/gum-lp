@@ -33,6 +33,10 @@
         margin-right: calc(1vw + 6em);
       }
     }
+    @media only screen and (min-width: 600px) {
+      padding: 0em;
+      transform: scale(0.95);
+    }
   }
 }
 
@@ -284,7 +288,6 @@
   & > img {
     width: 100%;
     height: auto;
-    padding: 0em 3em;
     @media only screen and (max-width: 1600px) {
       width: 80%;
       height: auto;
@@ -301,7 +304,6 @@
   margin-top: 8em;
   max-width: 1400px;
   width: 100%;
-  // flex-direction: column;
   gap: 2.5em;
   flex-wrap: wrap;
   @media only screen and (max-width: 900px) {
@@ -309,6 +311,12 @@
   }
   & > img {
     padding: 0em 3em;
+  }
+  @media only screen and (max-width: 400px) {
+    & > img {
+      padding: 0em;
+      transform: scale(0.85);
+    }
   }
 }
 
