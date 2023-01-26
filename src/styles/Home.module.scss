@@ -163,6 +163,7 @@
   background-color: var(--gray-50);
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .heroContent {
@@ -223,7 +224,44 @@
       }
     }
   }
+}
 
+.blueButtons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.5em;
+  margin-top: 3em;
+  & > button {
+    width: 13.5em;
+    height: 3.5em;
+    border-radius: 3.6em;
+    font-weight: 500;
+    font-size: 1.8em;
+    line-height: 132.02%;
+    text-align: center;
+    transition: 0.15s linear all;
+    cursor: pointer;
+    &:is(:first-child) {
+      border: none;
+      background-color: white;
+      color: #5F49E9;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    &:is(:last-child) {
+      border: 0.1em solid white;
+      background: none;
+      color: white;
+      &:hover {
+        border: 0.2em solid white;
+      }
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    transform: scale(0.85);
+  }
 }
 
 .footer {
@@ -235,6 +273,7 @@
 }
 
 .footerContent {
+  margin-top: 40em;
   max-width: 1200px;
   width: 100%;
   height: 100%;
@@ -252,6 +291,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  padding-bottom: 20em;
 }
 
 .legoText {
@@ -318,4 +358,23 @@
       opacity: 0.65;
     }
   }
+}
+
+.chewSection {
+  background: #5F49E9;
+  max-width: 1200px;
+  width: 100%;
+  position: absolute;
+  bottom: -18em;
+  height: 30em;
+  border-radius: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.glassStrike {
+  text-decoration: line-through;
+  font-style: italic;
 }
