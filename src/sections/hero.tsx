@@ -16,7 +16,7 @@ function Hero() {
     <section className={styles.heroSection}>
       <div className={styles.heroContent}>
         <div className={styles.heroContentLeft}>
-          <p className="text weight-700 size-52 gray-800 nm">{"The building blocks you need to build sticky dApps"}</p>
+          <p className="text weight-700 size-52 gray-800 nm">{"Solana Social Legos: Build sticky apps with ease"}</p>
           <p className="text weight-400 size-20 gray-500">{"Gum is the ultimate developer platform for building decentralised social applications on Solana."}</p>
           <div className={styles.heroButtons}>
             <button>Start Building</button>
