@@ -11,7 +11,7 @@ function Legos() {
         <Image src={logo} alt="" />
         <div className={styles.legoText}>
           <p className="text weight-700 size-48 gray-800 nm mt-1">{"Social Legos for Solana"}</p>
-          <p className="text weight-400 size-24 gray-500">{"Gum unbundles social apps into lego pieces for developers to build novel experiences with on Solana"}</p>
+          <p className="text weight-400 size-24 gray-500">{"Built on account compression, the same tech that powers compressed NFTs"}</p>
         </div>
         <div className={styles.legoImage}>
           <Image src={legosImage} alt="" />

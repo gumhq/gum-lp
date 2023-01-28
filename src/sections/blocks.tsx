@@ -14,7 +14,7 @@ function Blocks() {
     <section className={styles.blocksSection}>
       <div className={styles.blocksText}>
         <div className={styles.blocksHeading}>
-          <p className="text weight-700 size-48 gray-800 nm">{"Build sticky apps with built-in social features"}</p>
+          <p className="text weight-700 size-48 gray-800 nm">{"Use our SDK to make your applications engaging and fun"}</p>
         </div>
         <div className={styles.blocksSubHeading}>
           <p className="text weight-400 size-24 gray-500">Gum empowers developers with a whole host of tools to build rich and seamless social apps that people stick to</p>
