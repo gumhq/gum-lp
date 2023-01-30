@@ -9,7 +9,7 @@ function Why() {
         <Image src={componentsImage} alt="" />
         <div className={styles.whySectionText}>
           <p className="text weight-700 size-48 gray-800 nm">{"Building so fun, it feels like you're chewing gum"}</p>
-          <p className="text weight-400 size-24 gray-500">{"Leverage the power of our open-sourced SDK and easy-to-use component library to build your sticky social media app with ease"}</p>
+          <p className="text weight-400 size-24 gray-500">{"Leverage the power of our open-sourced SDK and easy-to-use component library to build your sticky apps."}</p>
         </div>
       </section>
     </div>
