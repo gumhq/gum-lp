@@ -6,8 +6,10 @@ import styles from '@/styles/Home.module.scss';
 import WordcelIcon from '@/components/icons/Wordcel';
 import DiscordIcon from '@/components/icons/Discord';
 import TwitterIcon from '@/components/icons/Twitter';
+import GithubIcon from '@/components/icons/Github';
 
 const socials = [
+  { link: 'https://github.com/gumhq', icon: GithubIcon },
   { link: 'https://twitter.com/wordcel_club', icon: TwitterIcon },
   { link: 'https://discord.gg/tCswbSK5W2', icon: DiscordIcon },
   { link: "https://wordcelclub.com/wordcelclub.sol", icon: WordcelIcon },
