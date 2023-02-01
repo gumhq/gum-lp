@@ -9,8 +9,8 @@ function Navbar() {
         <Image src={logo} alt="" />
         <div className={styles.navLinks}>
           <a href="#">Docs</a>
-          <a href="#">Blog</a>
           <a href="#">Community</a>
+          <a href="#">Blog</a>
         </div>
         <button className={styles.navButton}>Start Building</button>
       </div>
