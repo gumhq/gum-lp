@@ -12,7 +12,7 @@ const socials = [
   { link: 'https://github.com/gumhq', icon: GithubIcon },
   { link: 'https://twitter.com/gumisfunn', icon: TwitterIcon },
   { link: 'https://discord.gg/tCswbSK5W2', icon: DiscordIcon },
-  { link: "https://wordcelclub.com/gumsocial.sol", icon: WordcelIcon },
+  { link: "https://wordcelclub.com/gum.wao", icon: WordcelIcon },
 ];
 
 function Footer() {
