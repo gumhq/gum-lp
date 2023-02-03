@@ -20,8 +20,8 @@ function Legos() {
       <div className={styles.chewSection}>
         <p className="text weight-700 size-48 white nm">{"Chew"} <span className={styles.glassStrike}>{"Glass"}</span> {"Gum"}</p>
         <div className={styles.blueButtons}>
-          <button>Start Building</button>
-          <button>Read Docs</button>
+          <button onClick={() => window.open('https://github.com/gumhq', '_blank')}>Start Building</button>
+          <button onClick={() => window.open('https://docs.gum.fun', '_blank')}>Read Docs</button>
         </div>
       </div>
     </section>
