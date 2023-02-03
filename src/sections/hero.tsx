@@ -19,8 +19,8 @@ function Hero() {
           <p className="text weight-700 size-52 gray-800 nm">{"Solana Social Legos: Build sticky apps with ease"}</p>
           <p className="text weight-400 size-20 gray-500">{"Our SDK is all you need to make your applications sticky, engaging and fun to use."}</p>
           <div className={styles.heroButtons}>
-            <button>Start Building</button>
-            <button>Read Docs</button>
+            <button onClick={() => window.open('https://github.com/gumhq', '_blank')}>Start Building</button>
+            <button onClick={() => window.open('https://docs.gum.fun', '_blank')}>Read Docs</button>
           </div>
         </div>
         <div className={styles.heroAnimation}>
