@@ -8,11 +8,11 @@ function Navbar() {
       <div className={styles.navbarContent}>
         <Image src={logo} alt="" />
         <div className={styles.navLinks}>
-          <a href="#">Docs</a>
-          <a href="#">Community</a>
-          <a href="#">Blog</a>
+          <a rel="noopener noreferrer" target="_blank" href="https://docs.gum.fun/">Docs</a>
+          <a rel="noopener noreferrer" target="_blank" href="https://discord.gg/tCswbSK5W2">Community</a>
+          <a rel="noopener noreferrer" target="_blank" href="https://wordcelclub.com/gumsocial.sol">Blog</a>
         </div>
-        <button className={styles.navButton}>Start Building</button>
+        <button onClick={() => window.open('https://github.com/gumhq', '_blank')} className={styles.navButton}>Start Building</button>
       </div>
     </nav>
   );
