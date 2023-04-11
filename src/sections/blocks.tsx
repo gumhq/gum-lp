@@ -18,7 +18,7 @@ function Blocks() {
         </div>
         <div className={styles.blocksSubHeading}>
           <p className="text weight-400 size-24 gray-500">{"Gum empowers developers with a whole host of tools to build rich and engaging apps that people stick to."}</p>
-          <p className={concatClassNames("text weight-500 size-24 inter blue", styles.docsLink)}>Read Docs <span>{"->"}</span></p>
+          <p onClick={() => window.open('https://docs.gum.fun', '_blank')} className={concatClassNames("text weight-500 size-24 inter blue", styles.docsLink)}>Read Docs <span>{"->"}</span></p>
         </div>
       </div>
       {/* For wider screens */}
